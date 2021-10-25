@@ -1,0 +1,39 @@
+
+.container {
+    position: relative;
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.new-year {
+    display: block;
+    font-size: 15vw;
+    font-weight: bold;
+}
+
+.time-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+    /* hours, minutes, seconds */
+.time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px;
+    font-size: 3vw;
+}
+
+.time-num {
+    font-size: 8vw;
+}
