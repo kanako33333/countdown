@@ -13,7 +13,7 @@ const nextYear = currentYear + 1;
 const newYearTime = new Date(`January 01 ${nextYear} 00:00:00`);
 
 // nextYearをDOMに追加
-year.innerText = nextYear + "まで";
+year.innerText = nextYear + "年まで";
 
 
 // カウントダウンの関数
